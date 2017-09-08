@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+if身后跟判断语句，
+if, else if,,,,,else 只执行满足条件的一项，
+多项if则不确定，满足条件即可执行
+if 判断语句存在隐式转换，
+未赋予变量初值，则默认类型值为undefined
+要熟记几种转换类型所对应的false
+-->
+
+<head>
+  <meta charset="utf-8">
+  <title>if</title>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    var a = 40;
+
+    /*
+    if (a > 30){
+      console.log("a > 30");
+    }
+
+    if (a > 35){
+      console.log("a > 35");
+    }
+
+    if (a == 30){
+      console.log("a == 30");
+    }
+
+    if (a < 30){
+      console.log("a < 30");
+    }
+    */
+
+    if (a > 30) {
+      console.log("a > 30");
+    } else if (a > 35) {
+      console.log("a > 35");
+    } else  if (a == 30) {
+      console.log("a == 30");
+    } else if (a < 30) {
+      console.log("a < 30");
+    }
+
+  </script>
+
+</body>
+
+</html>
