@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>爱快</title>
+
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+
+    <style media="screen">
+
+      ul li {
+        list-style: none;
+      }
+
+      .navbar {
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+        width: 100%;
+        border: none;
+        z-index: 1000;
+        margin-bottom: 0;
+      }
+      .pull-right {
+        float: right;
+        margin-top: 15px;
+      }
+      .pull-right li {
+        float: left;
+      }
+      .pull-right a {
+        background-color: #fff;
+        color: #9b9b9b;
+        border: 1px solid #9b9b9b;
+        font-size: 14px;
+        font-weight: bolder;
+        margin-left: 18px;
+      }
+      .navbar-nav {
+        margin-top: 5px;
+      }
+      .navbar-default .navbar-nav>li>a {
+        color: #9b9b9b;
+      }
+      .navbar .collapse .nav li a:hover,
+      .navbar .collapse .nav li.active a,
+      .pull-right a:hover {
+        color: #fff;
+        background-color: rgb(0, 136, 204);
+      }
+
+      .content {
+        padding: 50px 0;
+      }
+      .content img {
+        width: 100%;
+      }
+      .content .sl {
+        float: left;
+      }
+      .content .sr {
+        float: right;
+      }
+      .content h3 {
+        font-size: 36px;
+        color: #0088cc;
+      }
+      @media screen and ((max-width: 979px) and (min-width: 768px)) {
+        .span4 {
+          width: 31.491712707182323%;
+        }
+      }
+      @media screen and ((max-width: 979px) and (min-width: 768px)) {
+        .span4 {
+          display: block;
+          float: left;
+          width: 100%;
+          box-sizing: border-box;
+        }
+      }
+      @media screen and (max-width: 767px) {
+        .span4 {
+          display: block;
+          float: none;
+          width: 90%;
+          box-sizing: border-box;
+        }
+      }
+      .content ul {
+        padding-left: 0;
+      }
+      .content li {
+        color: #5f5f5f;
+        font-size: 20px;
+        padding: 10px;
+      }
+      .background-eee {
+        background-color: #eee;
+      }
+      .background-eee .span4 {
+        float: left;
+      }
+      .background-eee .span8 {
+        float: right;
+      }
+      .open {
+        background: url("./img/6.jpg") no-repeat 50% 50%;
+        height: 660px;
+        text-align: center;
+      }
+
+      .list {
+        margin-top: 100px;
+      }
+      .list .span6 .span9 .item {
+        color: #0088cc;
+      }
+      .list .span6,
+      .list .span6 .span3,
+      .list .span6 .span9 {
+        float: left;
+      }
+      @media screen and (min-width: 1200px){
+        .span6 {
+          width: 50%;
+          margin-top: 40px;
+        }
+        .list .span6 .span9 {
+          margin-left: 66px;
+          margin-top: 10px;
+        }
+      }
+
+      .footer {
+        background-color: #333;
+        margin-top: 100px;
+        font-size: 14px;
+        color: #bac1c8;
+        padding: 20px 0;
+      }
+      .footer h6 {
+        font-size: 16px;
+      }
+      .footer a {
+        color: #bac1c8;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="./img/1.png" width="213px" height="34px" alt="">
+          </a>
+        </div>
+        <ul class="pull-right">
+          <li>
+            <a class="btn btn-success" href="#">爱快云</a>
+          </li>
+          <li>
+            <a class="btn" href="#">爱快论坛</a>
+          </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页</a></li>
+            <li><a href="#">固件下载</a></li>
+            <li><a href="#">爱快硬件</a></li>
+            <li><a href="#">技术支持</a></li>
+            <li><a href="#">渠道合作</a></li>
+            <li><a href="#">场景案例</a></li>
+            <li><a href="#">OEM定制</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">简体中文</a></li>
+                <li><a href="#">English</a></li>
+              </ul>
+            </li>
+        </div>
+      </div>
+    </nav>
+
+    <div class="clearfix background-fff content">
+      <div class="container">
+        <div class="row">
+          <div class="span8">
+            <div class="sl"><img src="./img/3.png" alt=""></div>
+          </div>
+          <div class="span4">
+            <div class="sr">
+              <h3 style="margin-top:120px">超赞的云系统</h3>
+              <ul>
+                <li>云平台集中管理</li>
+                <li>智能云AC</li>
+                <li>Portal认证配置</li>
+                <li>图形化数据体现</li>
+                <li>自定义JS通知插入</li>
+                <li>第三方认证接口</li>
+              </ul>
+              <p style="font-size:18px; color:#0088cc">更多,待你发现...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix background-eee content">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <div class="sr">
+              <h3 style="margin-top:120px">七层DPI流量管理</h3>
+              <ul>
+                <li>看网页、看电影、玩游戏互不干扰</li>
+                <li>多台终端同时上网不卡</li>
+                <li>带宽利用最大化</li>
+                <li>永远告别延迟卡顿</li>
+                <li>3000款+应用识别</li>
+              </ul>
+            </div>
+          </div>
+          <div class="span8">
+            <div class="sl"><img src="./img/4.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix background-fff content">
+      <div class="container">
+        <div class="row">
+          <div class="span8">
+            <div class="sl"><img src="./img/5.png" alt=""></div>
+          </div>
+          <div class="span4">
+            <div class="sr">
+              <h3 style="margin-top:120px">五大功能</h3>
+              <ul>
+                <li>多线路由</li>
+                <li>一键流控</li>
+                <li>免费AC管理</li>
+                <li>自定义微信认证</li>
+                <li>集中云管理</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix content open">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="text">
+              <h3 style="margin-top:200px;">开放尽显开放</h3>
+              <ul>
+                <li>Portal认证页面自定义</li>
+                <li>云数据API+认证SDK</li>
+                <li>从数据到应用，从应用到底层的开放之旅</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix list">
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+            <div class="row">
+              <div class="span3">
+                <div class="list-img">
+                  <img src="./img/10.png" alt="">
+                </div>
+              </div>
+              <div class="span9">
+                <p class="item">云系统</p>
+                <p>在线管理您所拥有的所有路由器</p>
+              </div>
+            </div>
+          </div>
+          <div class="span6">
+            <div class="row">
+              <div class="span3">
+                <div class="list-img">
+                  <img src="./img/11.png" alt="">
+                </div>
+              </div>
+              <div class="span9">
+                <p class="item">数据可视化</p>
+                <p>从终端到流量，所有数据通过图表一眼尽观</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span6">
+            <div class="row">
+              <div class="span3">
+                <div class="list-img">
+                  <img src="./img/12.png" alt="">
+                </div>
+              </div>
+              <div class="span9">
+                <p class="item">卓越的优先级</p>
+                <p>从终端到流量，所有数据通过图表一眼尽观</p>
+              </div>
+            </div>
+          </div>
+          <div class="span6">
+            <div class="row">
+              <div class="span3">
+                <div class="list-img">
+                  <img src="./img/13.png" alt="">
+                </div>
+              </div>
+              <div class="span9">
+                <p class="item">应用行为管理</p>
+                <p>基于DPI的应用行为管理</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span6">
+            <div class="row">
+              <div class="span3">
+                <div class="list-img">
+                  <img src="./img/14.png" alt="">
+                </div>
+              </div>
+              <div class="span9">
+                <p class="item">网址跳转</p>
+                <p>精准跳转、参数替换在最底层轻松搞定</p>
+              </div>
+            </div>
+          </div>
+          <div class="span6">
+            <div class="row">
+              <div class="span3">
+                <div class="list-img">
+                  <img src="./img/15.png" alt="">
+                </div>
+              </div>
+              <div class="span9">
+                <p class="item">插入JS通知</p>
+                <p>无论插入通知还是JS代码，总让您轻松完成</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span6">
+            <div class="row">
+              <div class="span3">
+                <div class="list-img">
+                  <img src="./img/16.png" alt="">
+                </div>
+              </div>
+              <div class="span9">
+                <p class="item">更多惊喜，待您体验</p>
+                <p>尊崇用户需求导向，做最接地气的路由企业</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 col-lg-8 clearfix">
+            <div class="col-xs-4 col-md-4">
+              <div class="footer-item">
+                <h6>技术服务</h6>
+                <p><a href="#">技术论坛</a></p>
+                <p><a href="#">技术教程</a></p>
+                <p><a href="#">技术咨询</a></p>
+                <p><a href="#">售后服务</a></p>
+              </div>
+            </div>
+            <div class="col-xs-4 col-md-4">
+              <div class="footer-item">
+                <h6>渠道合作</h6>
+                <p><a href="#">合作方式</a></p>
+                <p><a href="#">投诉邮箱</a></p>
+                <p><a href="#">各区域负责人</a></p>
+              </div>
+            </div>
+            <div class="col-xs-4 col-md-4">
+              <div class="footer-item">
+                <h6>关于爱快</h6>
+                <p><a href="#">爱快介绍</a></p>
+                <p><a href="#">公司动态</a></p>
+                <p><a href="#">联系我们</a></p>
+                <p><a href="#">爱快官方技术博客</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-3">
+            <div class="footer-servie">
+              <h2 style="line-height:30px;">400-877-3227</h2>
+              <p>技术支持电话</p>
+              <p>周一至周五 9:00 - 20:30</p>
+              <p>QQ交流群: 108636278</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-2 col-lg-1">
+            <div class="footer-wecha">
+              <img src="./img/20.png" alt="">
+              <p style="font-size:15px;">关注官方微信</p>
+            </div>
+          </div>
+          <div class="col-sm-12 text-center">
+            <div class="footer-copyright">
+              <span>Copyright © 2012 - 2017 iKuai. All Rights Reserved. </span>
+              <span> 京ICP备13042604号</span> <br>
+              <span>版权所有 全讯汇聚网络科技（北京）有限公司</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./jquery/jquery.min.js" charset="utf-8"></script>
+    <script src="./bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(".carousel").carousel({
+        interval: 2000
+      });
+    </script>
+  </body>
+</html>
