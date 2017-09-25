@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .one {
   font-size: 100px; }
 
@@ -11,3 +12,18 @@
     background: blue; }
 
 /*# sourceMappingURL=01.css.map */
+=======
+.one {
+  font-size: 100px; }
+
+.two {
+  color: pink;
+  font-size: 100px; }
+
+.three {
+  background: red; }
+  .three:hover {
+    background: blue; }
+
+/*# sourceMappingURL=01.css.map */
+>>>>>>> b9a5acfde60d6fcea6b57edd5740259ffe14d9aa

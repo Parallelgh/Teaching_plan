@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 comment
 */
@@ -23,3 +24,30 @@ h1 {
   font-size: 50px; }
 
 /*# sourceMappingURL=02.value.css.map */
+=======
+/*
+comment
+*/
+h1 {
+  color: red; }
+
+.one {
+  font-size: 40px;
+  color: #ffc80a; }
+
+.two {
+  border: 1px solid red;
+  font-size: 40px;
+  color: blue; }
+
+.item {
+  background: yellow; }
+
+.three {
+  border-bottom: 1px solid green; }
+
+.four {
+  font-size: 50px; }
+
+/*# sourceMappingURL=02.value.css.map */
+>>>>>>> b9a5acfde60d6fcea6b57edd5740259ffe14d9aa
